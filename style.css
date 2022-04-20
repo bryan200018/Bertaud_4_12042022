@@ -698,6 +698,7 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 h2 {
@@ -1046,10 +1047,15 @@ h7{
 .placement1{
     margin-left: 20px;
 }
-.placement2{
-    text-align: right;
-}
 h8{
     opacity: 0%;
     font-size: 20px;
 }
+.placement2{
+    margin-left: 20px;
+}  
+@media (min-width: 768px) {
+    .placement2{
+        margin-left: 70%;
+    }  
+}  
