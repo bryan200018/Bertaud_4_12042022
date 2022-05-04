@@ -1040,22 +1040,23 @@ h4 {
 .Auteur{
     font-size: 20px;
 }
-h7{
-    color: white;
-    font-size: 20px;
-}
+
 .placement1{
     margin-left: 20px;
+    color: white;
 }
-h8{
-    opacity: 0%;
-    font-size: 20px;
-}
+
 .placement2{
     margin-left: 20px;
+    color: white;
+
 }  
 @media (min-width: 768px) {
     .placement2{
         margin-left: 70%;
     }  
 }  
+
+.margin{
+    margin-top: 19px;
+}
