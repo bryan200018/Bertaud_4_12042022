@@ -818,6 +818,35 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.Texte-italic{
+    font-style: italic;
+    font-size: 20px;
+}
+.Auteur{
+    font-size: 20px;
+}
+
+.placement1{
+    margin-left: 20px;
+    color: white;
+}
+
+.placement2{
+    margin-left: 20px;
+    color: white;
+
+}  
+
+.margin{
+    margin-top: 19px;
+}
+
+@media (min-width: 768px) {
+    .placement2{
+        margin-left: 70%;
+    }  
+}  
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1032,31 +1061,4 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
-}
-.Texte-italic{
-    font-style: italic;
-    font-size: 20px;
-}
-.Auteur{
-    font-size: 20px;
-}
-
-.placement1{
-    margin-left: 20px;
-    color: white;
-}
-
-.placement2{
-    margin-left: 20px;
-    color: white;
-
-}  
-@media (min-width: 768px) {
-    .placement2{
-        margin-left: 70%;
-    }  
-}  
-
-.margin{
-    margin-top: 19px;
 }
